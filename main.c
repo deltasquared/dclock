@@ -16,7 +16,8 @@ gint paintLocal(gpointer data){
     gtk_label_set_text(localLabel, timeString);
     return TRUE;
 }
-
+//
+//why
 gint paintUTC(gpointer data){
     GtkWidget* utcLabel = (GtkWidget*) data;
     GDateTime* utcTime = g_date_time_new_now_utc();
