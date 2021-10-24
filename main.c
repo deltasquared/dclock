@@ -2,6 +2,7 @@
 #include <time.h>
 #include <math.h>
 
+// Startup
 static void destroy(GtkWidget*,  gpointer);
 static gboolean delete_event (GtkWidget*, GdkEvent*, gpointer);
 static gchar *timeString;
